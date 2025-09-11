@@ -371,4 +371,5 @@
             appointmentForm.reset();
         });
     }
+     
 });

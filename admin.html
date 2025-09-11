@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard | Blood Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">🩸 Blood Hub</div>
+            <ul>
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="#dashboard" class="nav-link">Dashboard</a></li>
+                <li><a href="#manage-users" class="nav-link">Manage Users</a></li>
+                <li><a href="#manage-requests" class="nav-link">Manage Requests</a></li>
+                <li><a href="#logout" class="nav-link">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="admin-dashboard">
+        <h1 class="dashboard-title">Admin Dashboard</h1>
+
+        <section id="dashboard" class="dashboard-metrics">
+            <div class="metric-card">
+                <h3>Total Donors</h3>
+                <p>2,540</p>
+                <i class="fas fa-users"></i>
+            </div>
+            <div class="metric-card">
+                <h3>Blood Requests</h3>
+                <p>15</p>
+                <i class="fas fa-hand-holding-water"></i>
+            </div>
+            <div class="metric-card">
+                <h3>Lives Saved</h3>
+                <p>1,230</p>
+                <i class="fas fa-heartbeat"></i>
+            </div>
+            <div class="metric-card">
+                <h3>Appointments</h3>
+                <p>50</p>
+                <i class="fas fa-calendar-check"></i>
+            </div>
+        </section>
+
+        <section id="manage-users" class="admin-section">
+            <h2>Manage Users</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>User ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Role</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>101</td>
+                            <td>Jane Doe</td>
+                            <td>jane.d@email.com</td>
+                            <td>Donor</td>
+                            <td>
+                                <button class="action-btn view-btn"><i class="fas fa-eye"></i> View</button>
+                                <button class="action-btn delete-btn"><i class="fas fa-trash-alt"></i> Delete</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>102</td>
+                            <td>John Smith</td>
+                            <td>john.s@email.com</td>
+                            <td>Receiver</td>
+                            <td>
+                                <button class="action-btn view-btn"><i class="fas fa-eye"></i> View</button>
+                                <button class="action-btn delete-btn"><i class="fas fa-trash-alt"></i> Delete</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>103</td>
+                            <td>Emily White</td>
+                            <td>e.white@email.com</td>
+                            <td>Donor</td>
+                            <td>
+                                <button class="action-btn view-btn"><i class="fas fa-eye"></i> View</button>
+                                <button class="action-btn delete-btn"><i class="fas fa-trash-alt"></i> Delete</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="manage-requests" class="admin-section">
+            <h2>Manage Blood Requests</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Request ID</th>
+                            <th>Patient Name</th>
+                            <th>Blood Group</th>
+                            <th>Status</th>
+                            <th>Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>R501</td>
+                            <td>Michael Brown</td>
+                            <td>O+</td>
+                            <td>Pending</td>
+                            <td>
+                                <button class="action-btn resolve-btn"><i class="fas fa-check-circle"></i> Resolve</button>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>R502</td>
+                            <td>Sarah Johnson</td>
+                            <td>AB-</td>
+                            <td>Fulfilled</td>
+                            <td>
+                                <button class="action-btn resolve-btn" disabled><i class="fas fa-check-circle"></i> Resolved</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Blood Hub. All Rights Reserved.</p>
+            <p>Donate Blood, Save Lives. Your donation makes a difference.</p>
+            <div class="social-links">
+                <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="#" aria-label="Github"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
