@@ -1,7 +1,8 @@
-#Blood Hub: Donate Blood, Save Lives 🩸
+# Blood Hub:
+Donate Blood, Save Lives 🩸
 Blood Hub is a comprehensive web portal designed to connect blood donors with those in need. Our mission is to simplify the process of blood donation and requests, creating a community where every individual can make a significant impact.
 
-Features
+# Features
  • Donor and Receiver Registration: Easily sign up to become a donor or a receiver to access our services.
 
  • Secure User Login: Access your personalized dashboard to manage your profile and track your activity.
@@ -18,7 +19,7 @@ Features
 
  • Admin Panel: A dedicated section for administrators to manage users and requests.
 
-How It Works
+# How It Works
  • Register: Sign up as either a donor or a receiver.
 
  • Access Your Account: Log in to your personal dashboard.
@@ -27,13 +28,13 @@ How It Works
 
  • Connect: Our system matches requests with donors, and you can book an appointment to donate.
 
-Getting Started
+# Getting Started
  • To get a local copy up and running, follow these simple steps.
 
-Prerequisites
+# Prerequisites
  • You'll need a modern web browser to view the site. No other special software is required.
 
-Technologies Used
+# Technologies Used
  • HTML5: For the structure of the web pages.
 
  • CSS3: For styling and layout.
@@ -42,4 +43,4 @@ Technologies Used
 
 
 
-I
+
